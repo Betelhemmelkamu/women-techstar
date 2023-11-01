@@ -47,10 +47,11 @@
   main {
     background-color: rgb(126, 156, 185);
     padding: 3em 0;  
-    flex: 5;
+    flex: 5; 
   }
   .text{
     margin-top: 20%;
+    line-height: 3px
   }
   
   footer {
