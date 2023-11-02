@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    text-align: center;
+  }
+
+  .small-text {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: lighter;
+   font-size: 15px;
+  }
+
+  input[type="text"] {
+    border-radius: 5px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: 300px;
+  }
+  
+  button {
+    background-color: green;
+    color: white;
+    padding: 10px 160px; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  h1{
+      font-size: 30px;
+      font-weight: 600;
+      margin-bottom: 5px ;
+      font-family: 'Poppins', sans-serif;
+  }
+    .input-text {
+      border-radius: 5px;
+      padding: 10px;
+      border: 1px solid #ccc;
+      font-weight: bold;
+    }
+    .input-field {
+      display: flex;
+      align-items: center;
+      margin-top: 10px; 
+    }
+    .input-icon {
+      position: relative;
+      margin-left: 10px; 
+    }
+    .icon-box {
+      display: inline-block;
+      padding: 10px;
+      background-color: #fffdfd;
+      border-radius: 5px;
+      border: 1px solid #9f9999;
+    }
+    
+    .icon-box i {
+      color: rgb(2, 2, 2);
+    }
+
+    .small-image {
+      position: absolute;
+      top: 45%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 90px;
+    }
