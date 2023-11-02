@@ -24,18 +24,20 @@
   
   .left {
     background-color: rgb(228, 154, 139);
-    padding: 3em 0;
+   padding-left: 8%;
     flex: 1;
   }
   
   .right {
     background-color: rgb(228, 154, 139);
-    padding: 3em 0;
+   padding-left: 8%;
     flex: 1;
    
   }
   .text-r{
-   margin-top: 100%;
+   margin-top: 140%;
+   margin-right: 70%;
+   line-height: 2px
   }
   .main{
     display: flex;
@@ -45,13 +47,14 @@
   main {
     background-color: rgb(126, 156, 185);
     padding: 3em 0;  
-    flex: 5;
+    flex: 5; 
   }
   .text{
     margin-top: 20%;
+    line-height: 3px
   }
   
   footer {
     background-color: rgb(196, 74, 49);
-    padding: 1.2em 0;
+    padding: 8px 0 ;
   }
